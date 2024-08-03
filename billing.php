@@ -124,7 +124,7 @@ for ($i = 0; $i < count($item_names); $i++) {
 
     $pdf->Cell($col1_width, 6, $i + 1, 1, 0, 'C');
     $pdf->Cell($col2_width, 6, $item_name, 1);
-    $pdf->Cell($col3_width, 6, '&#8377;' . number_format($amount, 2), 1);
+    $pdf->Cell($col3_width, 6, "\u{20B9}" . number_format($amount, 2), 1);
     $pdf->Cell($col4_width, 6, $gst . '%', 1);
     $pdf->Cell($col5_width, 6, $quantity, 1);
     $pdf->Cell($col6_width, 6, '&#8377;' . number_format($total, 2), 1, 1);

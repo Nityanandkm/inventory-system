@@ -100,6 +100,10 @@ session_start();
                 <li><a href="purchases.php">Purchases</a></li>
                 <li><a href="sales.php">Sales</a></li>
                 <li><a href="allowances.php">Allowances</a></li>
+                <li><a href="stock.php">Track Stocks</a></li>
+                <li><a href="quoatation.php">Sales Quoatation</a></li>
+
+
             </ul>
         </nav>
     </div>
