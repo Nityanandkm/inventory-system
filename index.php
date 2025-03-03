@@ -82,7 +82,7 @@ session_start();
 </head>
 <body>
     <header>
-        <h1>Welcome to JSRC IT tech</h1>
+        <h1>Welcome to JSRC IT</h1>
         <div class="auth-buttons">
             <?php if (isset($_SESSION['username'])): ?>
                 <p>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?>!</p>
